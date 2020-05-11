@@ -63,7 +63,6 @@ tshift  = 0.0;      % Time shift (s)
 
 load('vel_model.txt')
 
-Depthtmp   = vel_model(:,1); % H is the thickness of every layer 
 H   = vel_model(:,1); % H is the thickness of every layer (in m)                        
 Vp  = vel_model(:,2); % Vp in m/s
 Vs  = vel_model(:,3); % Vs in m/s
